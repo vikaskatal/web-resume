@@ -1,0 +1,16 @@
+//Variables
+
+$clr = blue;
+
+*, *::after, *::before {  box-sizing: border-box;}
+
+html {  font-size: 16px; }
+body {  font-size: 16px;  font-family: "Open Sans";  position: relative; }
+
+p, ul li { 
+    font-size: .9rem;  color: #635e5e;  line-height: 1.5rem; color: $clr;
+}
+
+a {  color: inherit; }
+a:hover {  text-decoration: none; }
+a:focus, a:hover {  color: #e25047;}
